@@ -1,0 +1,51 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calc</title>
+<link href="css/reset.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="calc">
+		<div class="display">
+			<span id="display">0</span>
+		</div>
+		<table id="buttons">
+		  <tr>
+		    <td class="num" id="num7">7</td>
+		    <td class="num" id="num8">8</td>
+		    <td class="num" id="num9">9</td>
+		    <td id="reset">CE</td>
+		    <td id="clear">&#9668;</td>
+		  </tr>
+		  <tr>
+		    <td class="num" id="num4">4</td>
+		    <td class="num" id="num5">5</td>
+		    <td class="num" id="num6">6</td>
+		    <td id="change">+/-</td>
+		    <td class="act" id="division" data-act="devision">÷</td>
+		  </tr>
+		  <tr>
+		    <td class="num" id="num1">1</td>
+		    <td class="num" id="num2">2</td>
+		    <td class="num" id="num3">3</td>
+		    <td class="act" id="multiply" data-act="multiply">×</td>
+		    <td class="act" id="minus" data-act="minus">-</td>
+		  </tr>
+		  <tr>
+		    <td class="num" colspan="2" id="num0">0</td>
+		    <td id="point">.</td>
+		    <td class="act" id="plus" data-act="plus">+</td>
+		    <td id="result">=</td>
+		  </tr>
+		</table>
+	</div>	
+    <script type="text/javascript" src="scripts/base.js"></script>	
+</body>
+</html>

@@ -1,0 +1,64 @@
+.clearfix {
+    min-height: 1%;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+body{
+    max-width: 100%;
+    font: bold 12pt/10pt sans-serif;
+}
+
+    .calc{
+        max-width: 300px;
+        margin: 50px auto;
+        padding: 10px;
+        background: #DDE7F3;
+        border: 3px solid #807373;
+        border-radius: 5px;
+    }
+
+        .display{
+            width: 95%;
+            height: 60px;
+            margin: 0 auto;
+            border: 3px solid #807373;
+            border-radius: 5px;
+            background: #fff;
+            font-size: 30px;
+            text-align: right;
+            line-height: 60px;
+            padding: 0 5px;
+            overflow: auto;
+        }
+
+        table{
+            width: 95%;
+            margin: 10px auto 0 auto;
+            border-collapse: separate;
+            border-spacing: 7px 15px; 
+        }
+
+            td{
+                width: 19%;
+                height: 35px;
+                border: 3px solid #807373;
+                border-radius: 5px;
+                text-align: center;
+                cursor: pointer;
+                background: #fff;
+            }
+
+            td:hover{
+                background: #F5F585;
+                border: 3px solid #FFB445;
+                transition:all 0.3s;
+            }
